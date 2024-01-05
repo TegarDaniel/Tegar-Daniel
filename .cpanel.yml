@@ -6,4 +6,4 @@ deployment:
     -/bin/cp assets $DEPLOYPATH
     -/bin/cp forms $DEPLOYPATH
     -/bin/cp portfolio-details.html $DEPLOYPATH
-    -/bin/cp -R img $DEPLOYPATH
+   
