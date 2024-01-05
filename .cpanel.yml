@@ -1,0 +1,9 @@
+---
+deployment:
+  tasks:
+    -export DEPLOYMENT=/home/tegarate/public_html/
+    -/bin/cp index.html $DEPLOYPATH
+    -/bin/cp assets $DEPLOYPATH
+    -/bin/cp forms $DEPLOYPATH
+    -/bin/cp portfolio-details.html $DEPLOYPATH
+    -/bin/cp -R img $DEPLOYPATH
